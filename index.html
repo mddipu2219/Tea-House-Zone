@@ -226,16 +226,18 @@
     </main>
     <!-- footer -->
     <footer
-      class="p-10 bg-gradient-to-r from-orange-100 to-red-200 px-32 py-16"
+      class="p-10 bg-gradient-to-r from-orange-100 to-red-200 lg: px-32 py-16"
     >
-      <div class="my-24 flex justify-between items-center">
+      <div
+        class="my-12 lg:my-24 flex flex-col lg:flex-row justify-between items-center"
+      >
         <img src="images/cup.png" alt="" />
-        <div class="gap-6 flex">
+        <div class="gap-6 flex flex-col lg:flex-row">
           <p>Get Ready To Get Started</p>
           <button class="btn btn-warning">Get Started</button>
         </div>
       </div>
-      <div class="grid grid-cols-4">
+      <div class="grid grid-cols-1 gap-6 lg:grid-cols-4">
         <div class="grid grid-cols-1">
           <h6 class="footer-title">Services</h6>
           <a class="link link-hover">Branding</a>
